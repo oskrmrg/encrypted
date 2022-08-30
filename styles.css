@@ -1,0 +1,112 @@
+body{
+    background: url(images/encrypt2.png);
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.izq{
+   float: right;
+   margin-left: 250px;
+   margin-top: -150px;
+}
+
+.mas{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+.logos{
+    box-shadow: 0 0 20px whitesmoke;
+}
+.textIn{
+    color: #043927;
+    font-size: 20px;
+    background: lightgray;
+    border-radius: 10px;
+    border: darkgreen;
+    box-shadow: 0px 0px 32px 4px darkcyan;
+    margin: 8.5% 0 0 7.5%;
+    margin-top: 90px;
+    padding-left: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.encrypt{
+    background-color: #043927;
+    color: white;
+    font-size: 20px;
+}
+
+.decrypt{
+    margin-left: 30px;
+    background-color: #043927;
+    color: white;
+    font-size: 20px;
+}
+
+.copy{
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: #043927;
+    color: white;
+    font-size: 20px;
+}
+
+.msj{
+    display: flex;
+    color: #043927;
+    font-size: 20px;
+    background: lightgrey;
+    background-image: url(images/decrypt.png);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: darkgreen;
+    box-shadow: 0px 0px 32px 4px darkcyan;
+    margin: 8.5% 0 0 7.5%;
+    margin-top: 90px;
+    margin-left: 150px;
+    padding-left: 10px;
+}
+
+
+.divfooter{
+    padding-top: 15px;
+    align-content: center;
+    text-align: center;
+    background: linear-gradient(#fefefe, #043927);
+    opacity: 0.75;
+    height: 250px;
+    width: 1905px;
+}
+
+.correo{
+    margin-top: 0px;
+    font-size: 20px;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.correo:hover{
+    font-size: 22px;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px
+}

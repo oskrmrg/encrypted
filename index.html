@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypted Text</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ 
+    <header>
+        <h1><img src="images/logo2.png" alt="Logo Encrypted Text" width="400" height="200"></h1>
+    </header>
+ 
+    <main>
+        
+        <section>
+            <textarea class="textIn" cols="50" rows="8" placeholder="Por favor, ingrese el texto aquí:"></textarea>
+
+            <div class="btn">
+                <button class="encrypt" onclick="encryptButton()">Encrypt</button>
+                        
+                <button class="decrypt" onclick="decryptButton()">Decrypt</button>
+            </div>
+
+        </section>
+
+        <section>
+            <textarea class="msj" cols="30" rows="7"></textarea>
+            
+            <button class="copy" onclick="copiar()">Copy</button>
+        </section>
+
+        <section class="izq">
+            <a href="https://www.aluracursos.com/"><img src="images/alura.jpg" alt="Logo Alura" width="150" height="150" class="logos"></a>
+            <p class="mas">+</p>
+            <a href="https://www.oracle.com/cl/education/oracle-next-education/"><img src="images/one.png" alt="Logo ONE" width="200" height="150" class="logos"></a>
+        </section>
+
+    </main>
+   
+    <script src="scripts.js"></script>
+    <br><br><br>
+   
+    <footer>
+        <div class="divfooter">
+            <p>Developep by: <b>Oscar Rodríguez</b></p>
+            <a href="https://www.linkedin.com/in/ing-oscarrodriguez/"><img src="images/linkedin.png" alt="Logo Linkedin" width="30" height="30"></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/oskrmrg/"><img src="images/github.png" alt="Logo Github" width="30" height="30"></a>
+            <br><br>
+            <br>            
+            <img src="images/gmail.png" alt="Logo Gmail" width="30" height="30">
+            <p class="correo"><b>oscarmrg@gmail.com</b></p>
+            <br>
+            <p class="copyright"> &copy Copyright Encrypted Text - 2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>
